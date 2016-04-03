@@ -5,3 +5,12 @@ margin:auto;
 background:purple;
 color:white;
 }
+div{
+  width:100%;
+  height:100%;
+  display:flex;
+}
+h1{
+  margin:auto;
+  font-family:10vw;
+}
