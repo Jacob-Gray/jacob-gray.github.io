@@ -5,7 +5,10 @@
 <span>(click to unleash madness)</span>
 </div>
 <script>
-  document.body.onclick = function(){
-    this.style.backgroundImage = "url(http://thecatapi.com/api/images/get?format=src&type=gif)"
-  }
+function kitten(){
+    document.body.style.backgroundImage="none";
+    document.body.style.backgroundImage = "url(http://thecatapi.com/api/images/get?format=src&type=gif)";
+    setTimeout(kitten,5000);
+}
+  document.body.onclick = kitten;
 </script>
