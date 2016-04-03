@@ -7,8 +7,11 @@
 <script>
 function kitten(){
     document.body.style.backgroundImage="none";
-    document.body.style.backgroundImage = "url(http://thecatapi.com/api/images/get?format=src&type=gif)";
-    setTimeout(kitten,5000);
+    seTimeout(function(){
+           document.body.style.backgroundImage = "url(http://thecatapi.com/api/images/get?format=src&type=gif)";
+    setTimeout(kitten,5000); 
+    },10)
+
 }
   document.body.onclick = kitten;
 </script>
