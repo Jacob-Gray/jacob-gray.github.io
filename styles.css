@@ -4,6 +4,7 @@ height:100%;
 margin:auto;
 background:#009688;
 color:white;
+font-family: 'Montserrat', sans-serif;
 }
 div{
   width:100%;
@@ -13,8 +14,11 @@ div{
   justify-content:middle;
 }
 h2{
-  color:white;
   margin:auto;
-  font-family: 'Montserrat', sans-serif;
   font-size:5vw;
+}
+
+span{
+  margin:auto;
+  font-size:1.5vw;
 }
