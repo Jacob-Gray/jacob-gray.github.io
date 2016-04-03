@@ -1,6 +1,11 @@
 <link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
 <link rel="stylesheet" href="styles.css">
 <div>
-<h2>Hello</h2>
+<h2>Today's theme is... Kittens!</h2>
 <span>(click to unleash madness)</span>
 </div>
+<script>
+  document.body.onclick = function(){
+    this.style.backgroundImage = "url(http://thecatapi.com/api/images/get?format=src&type=gif);"
+  }
+</script>
