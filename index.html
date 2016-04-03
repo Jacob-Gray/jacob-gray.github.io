@@ -6,12 +6,7 @@
 </div>
 <script>
 function kitten(){
-    document.body.style.backgroundImage="none";
-    setTimeout(function(){
-           document.body.style.backgroundImage = "url(http://thecatapi.com/api/images/get?format=src&type=gif)";
-    setTimeout(kitten,5000); 
-    },10)
-
+   document.body.style.backgroundImage = "url(http://thecatapi.com/api/images/get?format=src&type=gif)";
 }
   document.body.onclick = kitten;
 </script>
