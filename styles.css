@@ -10,7 +10,8 @@ div{
   height:100%;
   display:flex;
 }
-h1{
+h2{
+  color:white;
   margin:auto;
   font-family:10vw;
 }
