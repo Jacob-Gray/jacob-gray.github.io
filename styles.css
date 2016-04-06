@@ -34,4 +34,5 @@ span{
   right:0;
   bottom:0;
   background:transparent url("http://i.imgur.com/EhQXl.gif") scroll no-repeat center/auto;
+  display:none;
 }
