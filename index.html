@@ -22,7 +22,7 @@ setTimeout(kitten,5000);
 function uni(){
    var o = document.querySelector(".overlay");
    o.style.display="block";
-   o.setTimeout(function(){
+   setTimeout(function(){
       o.style.display="none";
          setTimeout(uni,Math.floor(Math.random()*10))
    },Math.random());
