@@ -7,6 +7,8 @@
 <script>
 function kitten(){
    document.body.style.backgroundImage = "url(http://thecatapi.com/api/images/get?format=src&type=gif&v="+Math.random().toString().replace(".","")+")";
+setTimeout(kitten,5000);
+   
 }
   document.body.onclick = kitten;
 </script>
