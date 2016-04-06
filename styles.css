@@ -5,6 +5,9 @@ margin:auto;
 background:#009688;
 color:white;
 font-family: 'Montserrat', sans-serif;
+background-size:auto;
+background-position:top left,bottom right,top left;
+background-repeat:repeat, no-repeat, repeat;
 }
 div{
   width:100%;
