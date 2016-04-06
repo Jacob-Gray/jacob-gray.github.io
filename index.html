@@ -5,10 +5,10 @@
 <h2>Today's theme is... Kittens!</h2>
 <span>(click to unleash madness)</span>
 </div>
+<div style="position:absolute;bottom:10px;left:10px;"><a href="http://www.cornify.com" onclick="cornify_add();return false;"><img src="http://www.cornify.com/assets/cornify.gif" width="61" height="16" border="0" alt="Cornify" /></a><script type="text/javascript" src="http://www.cornify.com/js/cornify.js"></script></div>
 <script>
 function kitten(){
    document.body.style.backgroundImage = "url(http://thecatapi.com/api/images/get?format=src&type=gif&v="+Math.random().toString().replace(".","")+"),url(http://stream1.gifsoup.com/view/23465/batman-o.gif), url(http://31.media.tumblr.com/995a4c522917f80add935eb03c8990aa/tumblr_moxzhhgKc21s5nvu8o1_1280.gif)";
-cornify_add();
 setTimeout(kitten,5000);
    
 }
