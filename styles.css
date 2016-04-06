@@ -31,8 +31,4 @@ span{
   position:fixed;
   top:0;
   left:0;
-  right:0;
-  bottom:0;
-  background:transparent url("http://i.imgur.com/EhQXl.gif") scroll no-repeat center/auto;
-  display:none;
 }
